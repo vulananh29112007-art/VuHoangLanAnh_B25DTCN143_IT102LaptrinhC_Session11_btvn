@@ -96,6 +96,11 @@ int main(){
 					}
 				}
 				printf("Hieu cua so lon nhat va so be nhat trong mang: %d - %d = %d",max,min,max - min);
+			case 10 :
+				printf("Thoat chuong trinh");
+				break;
+			default :
+				printf("khong hop le");
 	    }
 	}while(choice != 10);
 
@@ -103,4 +108,5 @@ int main(){
 
    return 0;
 }
+
 
